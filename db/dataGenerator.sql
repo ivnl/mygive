@@ -1,0 +1,1 @@
+insert into Category('Special-Needs', LOAD_FILE('C:\Users\Tamar\Documents\MyGiveWebsite\OrganizationLogos\SN.jfif'));
