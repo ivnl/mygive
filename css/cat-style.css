@@ -5,6 +5,11 @@
     margin-bottom: 35%;
 }
 
+h2 {
+    color: white;
+    background-color: gray;
+}
+
 #main div {
     display: inline-block;
 }
@@ -31,12 +36,27 @@
     width: 75%;
 }
 
-image {
+.border {
+    border-style: solid; 
+    border-width: thin;
+    border-color: gray;
+    border-top-width: 0;
+
+}
+
+.category {
+    background-color: gray; 
+    color:white; 
+    margin-top: -.5px;
+
+}
+
+img {
     margin: 20px auto;
-    width: 400px;
-    border: 10px solid red;
+    width: 90%;
+    height: 120px;
+    border: 10px;
     border-top: none;
-    background-color: red;
 }
 
 #footer {
