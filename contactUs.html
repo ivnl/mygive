@@ -13,87 +13,85 @@
 </head>
 
 <body>
-    <header role="banner">
-        <div class="container">
-            <div class="masthead">
-                <h1 class="text-muted" id="myGive">MyGive</h1>
-                <nav class="navbar navbar-default">
-                    <div class="container-fluid">
-                        <!-- Brand and toggle get grouped for better mobile display -->
-                        <!-- This is the drop down menu-->
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <div class="navbar-brand">
-                                <span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span>
-                                <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
-                                <span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span>
-                            </div>
-                        </div>
-                        <!-- Collect the nav links, forms, and other content for toggling -->
-                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                            <ul class="nav navbar-nav">
-                                <li><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
-                                <li><a href="about.html">About</a></li>
-                                <li class="active"><a href="contactUs.html">Contact Us</a></li>
-                                <li><a href="categories.html">Categories</a></li>
-                            </ul>
-                            <form class="navbar-form navbar-right" role="search">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Search">
+    <div class="container">
+        <header role="banner">
+                <div class="masthead">
+                    <h1 class="text-muted" id="myGive">MyGive</h1>
+                    <nav class="navbar navbar-default">
+                        <div class="container-fluid">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <!-- This is the drop down menu-->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <div class="navbar-brand">
+                                    <span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span>
+                                    <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+                                    <span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span>
                                 </div>
-                                <button type="submit" class="btn btn-default">Submit</button>
-                            </form>
+                            </div>
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav">
+                                    <li><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li class="active"><a href="contactUs.html">Contact Us</a></li>
+                                    <li><a href="categories.html">Categories</a></li>
+                                </ul>
+                                <form class="navbar-form navbar-right" role="search">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Search">
+                                    </div>
+                                    <button type="submit" class="btn btn-default">Submit</button>
+                                </form>
+                            </div>
+                            <!-- /.navbar-collapse -->
                         </div>
-                        <!-- /.navbar-collapse -->
-                    </div>
-                    <!-- /.container-fluid -->
-                </nav>
-            </div>
-        </div>
-    </header>
-    <main role="main">
-        <form id="contactUsForm" action="" method="post">
-
-  <fieldset class="form-group">
-    <legend>Contact Us</legend>
-    <label for="contactName">Name:</label>
-    <input type="text" class="form-control" id="contactName" placeholder="Enter name">
-  </fieldset>
-  <fieldset class="form-group">
-   <label for="contactEmail">Email:</label>
-   <input type="email" class="form-control" id="contactEmail" placeholder="Enter email">
-  </fieldset>
-  <fieldset class="form-group">
-    <label for="contactPhone">Phone:</label>
-    <input type="tel" pattern='[\+]\d{2}[\(]\d{2}[\)]\d{4}[\-]\d{4}' title="Phone Number (Format: +99(99)9999-9999)">
-  </fieldset>
-  <fieldset class="form-group">
-    <label for="subject">Subject:</label>
-    <input type="text" class="form-control" id="subject" placeholder="Subject">
-  </fieldset>
-  <fieldset class="form-group">
-    <label for="message">Message</label>
-    <textarea class="form-control" id="textArea" rows="5"></textarea>
-  </fieldset>
- 
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
-   
-    </main>
-    <footer>
-        <small>All rights reserved &copy</small>
-    </footer>
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+                        <!-- /.container-fluid -->
+                    </nav>
+                </div> 
+        </header>
+        <main role="main">
+            <form id="contactUsForm" action="" method="post">
+              <fieldset class="form-group">
+                <legend>Contact Us</legend>
+                <label for="contactName">Name:</label>
+                <input type="text" class="form-control" id="contactName" placeholder="Enter name">
+              </fieldset>
+              <fieldset class="form-group">
+               <label for="contactEmail">Email:</label>
+               <input type="email" class="form-control" id="contactEmail" placeholder="Enter email">
+              </fieldset>
+              <fieldset class="form-group">
+                <label for="contactPhone">Phone:</label>
+                <input type="tel" pattern='[\+]\d{2}[\(]\d{2}[\)]\d{4}[\-]\d{4}' title="Phone Number (Format: +99(99)9999-9999)">
+              </fieldset>
+              <fieldset class="form-group">
+                <label for="subject">Subject:</label>
+                <input type="text" class="form-control" id="subject" placeholder="Subject">
+              </fieldset>
+              <fieldset class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="textArea" rows="5"></textarea>
+              </fieldset>
+             
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </main>
+        <footer>
+            <small>All rights reserved &copy</small>
+        </footer>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+    </div>
 </body>
 
 </html>
